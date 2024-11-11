@@ -1,0 +1,582 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* .header-section {
+    background-color: #000000;
+    padding: 50px 0;
+  }
+  
+  .header-section .xuv700-title {
+    font-size: 3em;
+    color: #00d8ff;
+  } */
+  
+  /* .price-section .section-title {
+    color: #ffde59;
+    font-size: 2.5em;
+  }
+  
+  .price-section .price {
+    color: #ffffff;
+    font-size: 1.8em;
+  } */
+  
+  /* .variants-section h3, .mileage-section h3, .expert-section h3,
+  .pros-cons-section h3, .review-section h3, .videos-section h3 {
+    color: #ffde59;
+  }
+   */
+  .btn-warning {
+    background-color: #ffde59;
+    border: none;
+  }
+  
+  /* .review-section {
+    background-color: #000000;
+  } */
+  
+  /* .video-thumbnails img {
+    width: 200px;
+    margin: 5px;
+  } */
+  
+  /* .pros-cons-section h4.text-success, .pros-cons-section h4.text-danger {
+    color: #ffde59;
+  } */
+  /* Mileage Section */
+.mileage-section {
+    background-color: #1c1c1c; /* Dark background to match overall theme */
+    padding: 3rem 0; /* Increased padding for better spacing */
+  }
+  
+  .mileage-section .section-title {
+    font-size: 2.5em;
+    color: #ffde59; /* Bright yellow title for emphasis */
+    margin-bottom: 1.5rem;
+  }
+  
+  .mileage-section table {
+    width: 100%; /* Ensure the table stretches to full width of the container */
+    margin: 0 auto; /* Center the table */
+    max-width: 800px; /* Maximum width for large screens */
+    border-collapse: collapse; /* Merge table borders */
+  }
+  
+  .mileage-section table th,
+  .mileage-section table td {
+    padding: 1rem;
+    text-align: center; /* Center align table text */
+    font-size: 1.1rem; /* Slightly larger text for readability */
+    color: #fff; /* Ensure text is white for contrast */
+  }
+  
+  .mileage-section table th {
+    background-color: #343a40; /* Dark background for header */
+    color: #ffde59; /* Yellow text for header */
+    font-weight: bold; /* Bold header text */
+  }
+  
+  .mileage-section table tbody tr:nth-child(odd) {
+    background-color: #2a2a2a; /* Dark row background for odd rows */
+  }
+  
+  .mileage-section table tbody tr:nth-child(even) {
+    background-color: #1c1c1c; /* Lighter dark background for even rows */
+  }
+  
+  .mileage-section table tbody tr:hover {
+    background-color: #444; /* Highlight rows on hover */
+    cursor: pointer; /* Indicate interactive rows */
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .mileage-section .section-title {
+      font-size: 2em; /* Smaller title on mobile */
+    }
+  
+    .mileage-section table th,
+    .mileage-section table td {
+      font-size: 1rem; /* Slightly smaller text for smaller screens */
+      padding: 0.8rem; /* Reduce padding for mobile */
+    }
+    
+    .mileage-section table {
+      font-size: 0.9rem; /* Adjust font size for readability */
+    }
+  }
+
+  /* Pros and Cons Section */
+.pros-cons-section {
+    background-color: #1c1c1c; /* Dark background to match the theme */
+    padding: 3rem 0; /* Increased padding for better spacing */
+    color: #ffffff; /* White text color */
+  }
+  
+  .pros-cons-section h3 {
+    font-size: 2.5rem; /* Larger title for emphasis */
+    color: #ffde59; /* Yellow color for the section title */
+    margin-bottom: 2rem;
+  }
+  
+  .pros-cons-section .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .pros-cons-section .col-md-6 {
+    flex: 1; /* Ensure each column takes equal space */
+  }
+  
+  .pros-cons-section .col-md-6 h4 {
+    font-size: 1.8rem;
+    color: #ffde59; /* Yellow color for headings */
+    margin-bottom: 1rem;
+  }
+  
+  .pros-cons-section .col-md-6 ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding-left: 0;
+  }
+  
+  .pros-cons-section .col-md-6 ul li {
+    font-size: 1.1rem; /* Increase font size for readability */
+    margin-bottom: 10px; /* Space between list items */
+  }
+  
+  .pros-cons-section .col-md-6 ul li::before {
+    content: "✔"; /* Add checkmark before each list item */
+    color: #4caf50; /* Green color for checkmarks */
+    margin-right: 10px; /* Space between checkmark and text */
+  }
+  
+  .pros-cons-section .col-md-6 h4.text-danger {
+    color: #f44336; /* Red color for cons section heading */
+  }
+  
+  .pros-cons-section .col-md-6 ul li.text-danger::before {
+    content: "✘"; /* Cross mark for negative items */
+    color: #f44336; /* Red color for crossmarks */
+    margin-right: 10px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .pros-cons-section h3 {
+      font-size: 2rem; /* Smaller title for mobile screens */
+    }
+  
+    .pros-cons-section .row {
+      flex-direction: column; /* Stack the pros and cons vertically */
+      align-items: center; /* Center-align content on mobile */
+    }
+  
+    .pros-cons-section .col-md-6 {
+      width: 100%; /* Make each column take full width */
+      margin-bottom: 2rem; /* Space between stacked sections */
+    }
+  
+    .pros-cons-section .col-md-6 h4 {
+      font-size: 1.5rem; /* Smaller headings on mobile */
+    }
+  
+    .pros-cons-section .col-md-6 ul li {
+      font-size: 1rem; /* Slightly smaller text for mobile */
+    }
+  }
+  
+  /* Header Section */
+.header-section {
+    background-color: #121212; /* Dark background to match the overall theme */
+    padding: 6rem 0; /* Increased padding for better visual appeal */
+    text-align: center; /* Center the content */
+    position: relative; /* Allows positioning of any absolute elements */
+  }
+  
+  .header-section .xuv700-title {
+    font-size: 3.5rem; /* Larger title for emphasis */
+    color: #00d8ff; /* Light blue color to make the title stand out */
+    font-weight: bold; /* Bold text for a strong header */
+    margin-bottom: 1.5rem; /* Space below the title */
+  }
+  
+  .header-section .main-car-img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 500px; /* Limit height on larger screens to keep it proportional */
+    object-fit: cover; /* Ensures the image covers the available space */
+    border-radius: 10px; /* Rounded corners for a smooth look */
+  }
+  
+  /* Overlay Effect (Optional) */
+  .header-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    z-index: 1; /* Places overlay behind the text and image */
+    border-radius: 10px;
+  }
+  
+  /* Text on top of image (Optional) */
+  .header-section .xuv700-title {
+    position: relative;
+    z-index: 2; /* Ensures text is on top of the overlay */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header-section {
+      padding: 4rem 0; /* Less padding for smaller screens */
+    }
+  
+    .header-section .xuv700-title {
+      font-size: 2.5rem; /* Smaller font size for smaller screens */
+    }
+  
+    .header-section .main-car-img {
+      max-height: 350px; /* Reduce the image height on smaller screens */
+    }
+  }
+/* Navbar Styling */
+.navbar {
+    background-color: #121212; /* Dark background for navbar */
+    padding: 1rem 2rem; /* Add padding for a more spacious feel */
+  }
+  
+  .navbar-brand {
+    color: #00d8ff; /* Light blue color for brand */
+    font-size: 1.8rem; /* Slightly larger font size for the brand */
+    font-weight: bold; /* Bold font for emphasis */
+    text-transform: uppercase; /* Uppercase for a more professional look */
+  }
+  
+  .navbar-brand:hover {
+    color: #ffde59; /* Yellow color on hover for contrast */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-right: 1.5rem; /* Space between navbar items */
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff; /* White text color for navbar links */
+    font-size: 1.1rem; /* Slightly larger text for readability */
+    text-transform: uppercase; /* Uppercase for navbar links */
+    font-weight: 500; /* Medium font weight */
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ffde59; /* Yellow color on hover */
+  }
+  
+  .navbar-toggler {
+    border-color: #ffffff; /* White border for the toggler button */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #ffffff; /* White hamburger icon for visibility */
+  }
+  
+  /* Navbar Collapse (For mobile responsiveness) */
+  .navbar-collapse {
+    justify-content: flex-end; /* Align links to the right */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center; /* Center the navbar items on mobile */
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 1rem; /* Space between items when stacked */
+      margin-right: 0; /* Remove right margin for stacked items */
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 1.2rem; /* Slightly larger text on mobile */
+    }
+  }
+    
+  /* Price Section */
+.price-section {
+    background-color: #1f1f1f; /* Slightly lighter dark background */
+    padding: 4rem 2rem; /* Added padding for spacing */
+    text-align: center; /* Center the text in the section */
+  }
+  
+  .price-section .section-title {
+    color: #ffde59; /* Yellow color for section title */
+    font-size: 2.5rem; /* Larger font size for the section title */
+    font-weight: bold; /* Bold text for emphasis */
+    margin-bottom: 1.5rem; /* Space below the title */
+  }
+  
+  .price-section .price {
+    color: #ffffff; /* White text for price */
+    font-size: 2rem; /* Larger font size for price */
+    font-weight: 600; /* Bold font weight for the price */
+    margin-bottom: 1.5rem; /* Space below the price */
+  }
+  
+  .price-section .description {
+    color: #d1d1d1; /* Light gray color for the description text */
+    font-size: 1.1rem; /* Slightly larger font size for readability */
+    margin-bottom: 2rem; /* Space below the description */
+  }
+  
+  .price-section .btn-warning {
+    background-color: #ffde59; /* Yellow color for the button */
+    color: #121212; /* Dark text color for button */
+    font-size: 1.2rem; /* Larger font size for the button */
+    padding: 10px 20px; /* Padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition effects */
+  }
+  
+  .price-section .btn-warning:hover {
+    background-color: #ffb800; /* Darker yellow on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .price-section .section-title {
+      font-size: 2rem; /* Smaller font size for smaller screens */
+    }
+  
+    .price-section .price {
+      font-size: 1.8rem; /* Smaller font size for the price */
+    }
+  
+    .price-section .description {
+      font-size: 1rem; /* Smaller font size for description */
+    }
+  
+    .price-section .btn-warning {
+      font-size: 1.1rem; /* Slightly smaller font size for mobile button */
+      padding: 8px 16px; /* Adjust button padding */
+    }
+  }
+  
+
+  /* Variants Section */
+.variants-section {
+    background-color: #1f1f1f; /* Dark background for the section */
+    padding: 4rem 2rem; /* Add padding for spacing */
+    text-align: center; /* Center the text in the section */
+  }
+  
+  .variants-section h3 {
+    color: #ffde59; /* Yellow color for the section title */
+    font-size: 2.5rem; /* Larger font size for the section title */
+    font-weight: bold; /* Bold font for emphasis */
+    margin-bottom: 2rem; /* Space below the title */
+  }
+  
+  .variants-section .table {
+    background-color: #2c2c2c; /* Slightly lighter dark background for the table */
+    color: #ffffff; /* White text color for the table */
+    border-radius: 8px; /* Rounded corners for the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    margin-top: 2rem; /* Space above the table */
+  }
+  
+  .variants-section .table th {
+    background-color: #121212; /* Dark background for table headers */
+    color: #ffde59; /* Yellow text color for headers */
+    font-size: 1.2rem; /* Larger font size for headers */
+    padding: 1rem; /* Add padding inside table headers */
+  }
+  
+  .variants-section .table td {
+    font-size: 1.1rem; /* Slightly larger text size for table rows */
+    padding: 1rem; /* Add padding inside table cells */
+  }
+  
+  .variants-section .table-striped tbody tr:nth-child(odd) {
+    background-color: #2c2c2c; /* Alternate row color for better readability */
+  }
+  
+  .variants-section .table-hover tbody tr:hover {
+    background-color: #ffde59; /* Highlight rows with yellow on hover */
+    color: #121212; /* Dark text color for readability */
+  }
+  
+  @media (max-width: 768px) {
+    .variants-section h3 {
+      font-size: 2rem; /* Smaller font size for the title on mobile */
+    }
+  
+    .variants-section .table th, .variants-section .table td {
+      font-size: 1rem; /* Smaller font size for table text on mobile */
+    }
+  
+    .variants-section .table th, .variants-section .table td {
+      padding: 0.75rem; /* Reduce padding for mobile */
+    }
+  }
+  
+  /* Expert Advice Section */
+.expert-section {
+    background-color: #121212; /* Dark background to match the theme */
+    padding: 4rem 2rem; /* Added padding for spacing */
+    text-align: center; /* Center the text in the section */
+    color: #ffffff; /* White text color for readability */
+  }
+  
+  .expert-section h3 {
+    color: #ffde59; /* Yellow color for the title */
+    font-size: 2.5rem; /* Large font size for emphasis */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 2rem; /* Space below the title */
+  }
+  
+  .expert-section p {
+    color: #d1d1d1; /* Light gray color for the description text */
+    font-size: 1.2rem; /* Slightly larger font size for readability */
+    margin-bottom: 2rem; /* Space below the description */
+  }
+  
+  .expert-section img {
+    width: 80%; /* Image takes up 80% of the container width */
+    max-width: 400px; /* Maximum width of 400px for larger screens */
+    margin-top: 2rem; /* Space above the image */
+    border-radius: 8px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+  }
+  
+  .expert-section .img-fluid {
+    max-width: 100%; /* Ensure the image scales correctly on smaller screens */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  @media (max-width: 768px) {
+    .expert-section h3 {
+      font-size: 2rem; /* Smaller font size for mobile devices */
+    }
+  
+    .expert-section p {
+      font-size: 1rem; /* Smaller font size for description text */
+    }
+  
+    .expert-section img {
+      width: 90%; /* Image takes up 90% of the screen width on smaller screens */
+      max-width: none; /* Remove the max-width constraint on smaller screens */
+      margin-top: 1.5rem; /* Slightly less space above the image */
+    }
+  }
+  
+
+  /* User Review Section */
+.review-section {
+    background-color: #121212; /* Dark background to match the theme */
+    padding: 4rem 2rem; /* Added padding for spacing */
+    text-align: center; /* Center the content */
+    color: #ffffff; /* White text color for readability */
+  }
+  
+  .review-section h3 {
+    color: #ffde59; /* Yellow color for the title */
+    font-size: 2.5rem; /* Larger font size for the section title */
+    font-weight: bold; /* Bold font weight for emphasis */
+    margin-bottom: 2rem; /* Space below the title */
+  }
+  
+  .review-section p {
+    color: #d1d1d1; /* Light gray color for the rating text */
+    font-size: 1.5rem; /* Larger font size for the review rating */
+    margin-bottom: 2rem; /* Space below the rating */
+  }
+  
+  .review-section .btn-primary {
+    background-color: #ffde59; /* Yellow color for the button */
+    color: #121212; /* Dark text color for contrast */
+    font-size: 1.2rem; /* Font size for the button */
+    padding: 0.8rem 2rem; /* Add padding for better button size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  .review-section .btn-primary:hover {
+    background-color: #d4b100; /* Slightly darker yellow on hover */
+  }
+  
+  @media (max-width: 768px) {
+    .review-section h3 {
+      font-size: 2rem; /* Smaller font size for mobile devices */
+    }
+  
+    .review-section p {
+      font-size: 1.2rem; /* Smaller font size for the review rating */
+    }
+  
+    .review-section .btn-primary {
+      font-size: 1rem; /* Smaller button text for mobile */
+      padding: 0.6rem 1.5rem; /* Smaller padding for mobile */
+    }
+  }
+  
+
+  /* Related Videos Section */
+.videos-section {
+    background-color: #121212; /* Dark background to maintain theme consistency */
+    padding: 4rem 2rem; /* Added padding for spacing */
+    text-align: center; /* Center the content */
+    color: #ffffff; /* White text color for readability */
+  }
+  
+  .videos-section h3 {
+    color: #ffde59; /* Yellow color for the title */
+    font-size: 2.5rem; /* Larger font size for the section title */
+    font-weight: bold; /* Bold font weight to make the title stand out */
+    margin-bottom: 2rem; /* Space below the title */
+  }
+  
+  .video-thumbnails {
+    display: flex; /* Flexbox for a responsive grid layout */
+    justify-content: center; /* Center the thumbnails horizontally */
+    flex-wrap: wrap; /* Allow wrapping to the next line on smaller screens */
+    gap: 1rem; /* Add spacing between video thumbnails */
+  }
+  
+  .video-thumbnails img {
+    width: 250px; /* Set a fixed width for video thumbnails */
+    height: 140px; /* Set a fixed height for video thumbnails */
+    object-fit: cover; /* Ensure the images cover the area without distortion */
+    border-radius: 8px; /* Rounded corners for the images */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition on hover */
+    cursor: pointer; /* Change cursor to pointer to indicate interactivity */
+  }
+  
+  .video-thumbnails img:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow on hover for emphasis */
+  }
+  
+  @media (max-width: 768px) {
+    .videos-section h3 {
+      font-size: 2rem; /* Smaller font size for mobile devices */
+    }
+  
+    .video-thumbnails img {
+      width: 200px; /* Smaller thumbnail size for mobile devices */
+      height: 120px; /* Smaller height for mobile devices */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .video-thumbnails img {
+      width: 180px; /* Further reduce thumbnail size on extra-small screens */
+      height: 100px; /* Further reduce height on extra-small screens */
+    }
+  }
+  
