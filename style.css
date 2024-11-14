@@ -1,4 +1,4 @@
-body {
+/* body {
     background-color: #121212;
     color: #ffffff;
   }
@@ -579,4 +579,92 @@ body {
       height: 100px; /* Further reduce height on extra-small screens */
     }
   }
-  
+   */
+/* General Styles */
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  font-size: 1.1rem;
+}
+
+.header-section {
+  background-color: #222;
+  padding: 50px 20px;
+}
+
+.xuv700-title {
+  font-size: 4rem;
+  color: #50c4a8;
+}
+
+.main-car-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.price-section .section-title {
+  font-size: 2.5rem;
+  color: #ffc107;
+}
+
+.price {
+  font-size: 1.8rem;
+}
+
+/* Table Styles */
+.table th, .table td {
+  text-align: center;
+}
+
+/* Review Section */
+.review-section p {
+  font-size: 1.3rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .xuv700-title {
+    font-size: 2.5rem;
+  }
+
+  .price-section .section-title, .price-section .price {
+    font-size: 1.5rem;
+  }
+
+  .table th, .table td {
+    font-size: 0.9rem;
+  }
+
+  .review-section h3 {
+    font-size: 1.8rem;
+  }
+
+  .review-section p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .xuv700-title {
+    font-size: 2rem;
+  }
+
+  .header-section, .price-section, .variants-section, .review-section {
+    padding: 20px;
+  }
+
+  .review-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .price-section .section-title, .price-section .price {
+    font-size: 1.2rem;
+  }
+}
+
+
+
